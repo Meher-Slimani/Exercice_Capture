@@ -1,0 +1,126 @@
+/* Body */
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../podcast-block_brush.png");
+  color: white;
+  background-color: rgb(31, 100, 240);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+  align-content: center;
+}
+
+.logo {
+  width: 120px;
+  height: 40px;
+}
+
+.nav_left {
+  display: flex;
+  align-content: center;
+}
+
+.links {
+  display: flex;
+  margin-left: 20px;
+  align-content: center;
+  margin-bottom: 5px;
+}
+
+select {
+  margin-left: 20px;
+  background-color: transparent;
+  border: transparent;
+  color: white;
+}
+
+.nav_right {
+  display: flex;
+  margin-right: 30px;
+}
+
+.login {
+  background-color: white;
+  border: 1px transparent solid;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 15px;
+  padding: 0 25px;
+}
+
+.get_started {
+  background-color: rgb(31, 100, 240);
+  border: 1px transparent solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+
+/* Main */
+.services {
+  display: flex;
+}
+
+.main_left {
+  color: white;
+  width: 300px;
+  height: 360px;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.try_for_free {
+  padding: 10px 40px;
+  background-color: rgb(250, 78, 160);
+  border: 1px transparent solid;
+  border-radius: 5px;
+  color: white;
+}
+
+.watch_video {
+  padding: 0 25px;
+  background-color: white;
+  border: 1px transparent solid;
+  border-radius: 5px;
+  color: rgb(250, 78, 160);
+  margin-left: 15px;
+}
+
+.main_right {
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+h1 {
+  font-size: 40px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-block-end: 1.5em;
+}
+
+span {
+  font-weight: bold;
+}
+
+iframe {
+  border-radius: 10px;
+}
